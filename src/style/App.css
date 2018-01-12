@@ -1,0 +1,96 @@
+.container {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	min-height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 5% 10%;
+}
+
+.container.red {
+	background: #de5151;
+}
+
+.container.purple {
+	background: #a05ce0;
+}
+
+.container.blue {
+	background: #5196de;
+}
+
+.container.green {
+	background: #51de76;
+}
+
+.container.yellow {
+	background: #ded351;
+}
+
+.container.white {
+	background: #e8e8e8;
+}
+
+.container.clickable {
+	cursor: pointer;
+}
+
+.about {
+	text-align: left;
+}
+
+.suggestion {
+	font-size: 1.75rem;
+	line-height: 2.5rem;
+}
+
+.suggestion__item {
+	background-color: rgba(14,14,14,0.15);
+	border-bottom: 3px solid rgba(14,14,14,0.15);
+}
+
+.suggestion__button {
+	font-weight: 200;
+	border-bottom: 3px solid rgba(14,14,14,0);
+}
+
+.suggestion__button:hover {
+	border-bottom: 3px solid rgba(14,14,14,0.3);
+}
+
+h1 {
+	font-size: 0;
+	line-height: 0;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin: 0.5rem 0 1rem;
+}
+
+a,
+a:focus,
+a:active {
+	text-decoration: underline;
+	color: #0e0e0e;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+	.suggestion {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+
+}
