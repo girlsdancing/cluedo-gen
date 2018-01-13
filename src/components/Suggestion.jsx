@@ -35,7 +35,7 @@ class Suggestion extends Component {
 			colour: 'purple'
 		},
 		{
-			name: 'Mrs. Peacock',
+			name: 'Mrs Peacock',
 			colour: 'blue'
 		}, 
 		{
@@ -47,7 +47,7 @@ class Suggestion extends Component {
 			colour: 'yellow'
 		},
 		{
-			name: 'Mrs. White',
+			name: 'Mrs White',
 			colour: 'white'
 		}];
 
