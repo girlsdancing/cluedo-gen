@@ -10,7 +10,7 @@ class About extends Component {
 					<h1>CluedoGen - About</h1>
 					<h2>About</h2>
 					<p>CluedoGen - a Cluedo Suggestion Generator was created to assist the People of the Internet to find a suitable Cluedo suggestion/accusation. Does not substitute actual game play. For best results, play the bloody game and figure out who did it yourself.</p>
-					<p>Coded by <a href="http://camilamattos.com">Camila Mattos</a> with <a href="https://reactjs.org">React</a> and &hearts;. It's available on <a href="https://github.com/girlsdancing/cluedo-gen">GitHub</a>.</p>
+					<p>Coded by <a href="http://camilamattos.com">Camila Mattos</a> with <a href="https://reactjs.org">React</a> and &hearts;. It's available on <a href="https://github.com/mattosmia/cluedo-gen">GitHub</a>.</p>
 
 					<p><strong>Disclaimer:</strong> this website is in no way affiliated with Cluedo/Clue or any of its publishers, including Hasbro, Waddington Games, Parker Brothers and Winning Moves.</p>
 
