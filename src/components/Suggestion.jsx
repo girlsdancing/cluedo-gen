@@ -28,27 +28,27 @@ class Suggestion extends Component {
 		const suspects = [
 		{
 			name: 'Miss Scarlett',
-			colour: 'red'
+			colour: '#de5151' // red
 		},
 		{
 			name: 'Professor Plum',
-			colour: 'purple'
+			colour: '#a05ce0' // purple
 		},
 		{
 			name: 'Mrs Peacock',
-			colour: 'blue'
-		}, 
+			colour: '#5196de' // blue
+		},
 		{
 			name: 'Reverend Mr Green',
-			colour: 'green'
+			colour: '#51de76' // green
 		},
 		{
 			name: 'Colonel Mustard',
-			colour: 'yellow'
+			colour: '#ded351' // yellow
 		},
 		{
 			name: 'Mrs White',
-			colour: 'white'
+			colour: '#e8e8e8' // white
 		}];
 
 
@@ -79,15 +79,17 @@ class Suggestion extends Component {
 		const weapon = weapons[parseInt(Math.random() * weapons.length, 10)];
 
 		this.setState({ suggestion: { suspect, room, weapon } });
-	}	
+
+		document.documentElement.style.setProperty(`--bgcolour`, suspect.colour);
+	}
 
 	render() {
 		return (
-				<section className={`container clickable ${this.state.suggestion.suspect.colour}`} onClick={() => this.getSuggestion()}>
+				<section className={`container clickable`} onClick={() => this.getSuggestion()}>
 					<div className="suggestion">
 						<h1>CluedoGen - Suggestion</h1>
 						I suggest it was <span className="suggestion__item">{ this.state.suggestion.suspect.name }</span>,
-						in the <span className="suggestion__item">{ this.state.suggestion.room }</span>, 
+						in the <span className="suggestion__item">{ this.state.suggestion.room }</span>,
 						with a <span className="suggestion__item">{ this.state.suggestion.weapon }</span>. <span className="suggestion__button">Disprove?</span>
 					</div>
 					<Footer />

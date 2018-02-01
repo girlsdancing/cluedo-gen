@@ -1,3 +1,7 @@
+:root {
+	--bgcolour: #9c9c9c;
+}
+
 .container {
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -6,33 +10,10 @@
 	box-sizing: border-box;
 	min-height: 100vh;
 	display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 	padding: 5% 10%;
-}
-
-.container.red {
-	background: #de5151;
-}
-
-.container.purple {
-	background: #a05ce0;
-}
-
-.container.blue {
-	background: #5196de;
-}
-
-.container.green {
-	background: #51de76;
-}
-
-.container.yellow {
-	background: #ded351;
-}
-
-.container.white {
-	background: #e8e8e8;
+	background: var(--bgcolour);
 }
 
 .container.clickable {
